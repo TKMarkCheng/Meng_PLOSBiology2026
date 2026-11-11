@@ -1,0 +1,29 @@
+data:
+  HLCA:
+    dataset_url: "https://github.com/LungCellAtlas/HLCA"
+    full_h5ad_url: "https://datasets.cellxgene.cziscience.com/586e2bc2-b821-41a8-a6ef-c2467d74d1b1.h5ad"
+    full_h5ad_path: "data/HLCA/hlca_full.h5ad"
+    core_h5ad_url: "https://datasets.cellxgene.cziscience.com/1f42cae1-2567-4779-9cb3-5b7f60a0a3d8.h5ad"
+    core_h5ad_path: "data/HLCA/hlca_core.h5ad"
+  madisson_NatGen2023:
+    dataset_url: "https://explore.data.humancellatlas.org/projects/957261f7-2bd6-4358-a6ed-24ee080d5cfc/project-matrices"
+    h5ad_url: "https://datasets.cellxgene.cziscience.com/744893d3-e7ab-4d8e-a2bf-1a63833ff5ec.h5ad"
+    h5ad_path: "data/HLCA/hlca_Madissoon.h5ad"
+  Woodall_NatMicro2024:
+    source: https://www.covid19cellatlas.org/index.patient.html
+    in_vivo:
+      h5ad_url: "https://covid19.cog.sanger.ac.uk/in_vivo_object_cxg_with_raw_counts.h5ad"
+      md5: "1e1bed799e37f482a87918c73bd754e3"
+    in_vitro:
+      h5ad_url: "https://covid19.cog.sanger.ac.uk/covid19_across_age_in_ALI_organoids.h5ad"
+      h5ad_path: "data/COVID_cell_atlas/in_vitro_object_cxg.h5ad"
+      h5ad_url_md5: "1e1bed799e37f482a87918c73bd754e3"
+      raw_h5ad_url: "https://covid19.cog.sanger.ac.uk/cujba22_covid19_across_age_in_ALI_organoids_raw.h5ad"
+      raw_h5ad_path: "data/COVID_cell_atlas/in_vitro_object_cxg_raw_counts.h5ad"
+      md5: "NA"
+  tabula_sapeins:
+    all_cells:
+      h5ad_path: "data/tabula-sapiens/tabulaSapiens_allCells.h5ad"
+    epithelium_only:
+      h5ad_path: "data/tabula-sapiens/tabulaSapiens_epithelium.h5ad"
+    
